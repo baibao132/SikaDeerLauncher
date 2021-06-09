@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DES.DESEncrypt" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirtLucher\DES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.DirtLuncherException" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirtLucher\DirtLuncherException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.MincraftDownload" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEQAAAAAAAAAAAgAIAAAAAFAQAA=</HashCode>
+      <FileName>DirtLucher\Downloadurl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.MCDownload" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirtLucher\Downloadurl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.MCVersionList" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DirtLucher\Downloadurl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.Download" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirtLucher\web.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.Minecraft.Tools" Collapsed="true">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEGAAyAABBAAAACgBAAYQAAAAAACAAIACAAAQAAAAA=</HashCode>
+      <FileName>DirtLucher\tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.Minecraft.Getlogin" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirtLucher\tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.Minecraft.AllTheExistingVersion" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirtLucher\tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gac.DownLoadFile" Collapsed="true">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAABAAAAAAAAACAAAAAAAEAAAAAAAEAABgAA=</HashCode>
+      <FileName>Gac\DownLoadFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gac.DownloadProgressListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAEAAAIAA=</HashCode>
+      <FileName>Gac\DownloadProgressListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Gac.DownMsg" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAYAAAAggkAABAAAAAJBBAAAAAEAAQwAYECMQAY=</HashCode>
+      <FileName>Gac\DownloadProgressListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gac.DownloadThread" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAARARAAAAAAAAAQAAAKCgABAA=</HashCode>
+      <FileName>Gac\DownloadThread.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gac.FileDownloader" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAEAAAAAAIAAAAAIAAAAEAAAAAAEQAAAFBAA=</HashCode>
+      <FileName>Gac\FileDownloader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json2.SelectedProfile" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>json\json2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json2.User" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>json\json2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json2.PropertiesItem" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>json\json2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json2.Root" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAEAAAAAAAAAAACAAAABAAAAEQA=</HashCode>
+      <FileName>json\json2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json3.Root" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>json\json3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.AssetIndex" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAIAAAAABAAAIAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.Client" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAABAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.Server" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAABAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.Artifact" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIACAAABAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.Downloads" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.LibrariesItem" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.File" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAABAAAIAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.Logging" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="json.Root" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQAAAAAAAAAAAAAAAIAABACAAAAEABAEZAgA=</HashCode>
+      <FileName>json\mclist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mcbbs.mcbbsnews" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAAQBAAAAAIAAAACAAIAACmAQBAEQAAAAA=</HashCode>
+      <FileName>mcbbs\Class1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MinecraftOutClient.Modules.Forge.ForgeInfo" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MinecraftOutClient\Forge\ForgeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MinecraftOutClient.Modules.Json" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgg=</HashCode>
+      <FileName>MinecraftOutClient\Json.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MinecraftOutClient.Modules.ProtocolHandler" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAEAAAAEAAEAAQAAAAAAABCAASCQAQAAAAAAAAA=</HashCode>
+      <FileName>MinecraftOutClient\ProtocolHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MinecraftOutClient.Modules.ServerInfo" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAAAAAAgAAAEBAAAACAABQAAAAIACGCAEAgEA=</HashCode>
+      <FileName>MinecraftOutClient\ServerInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirtLauncher.Properties.Settings" Collapsed="true">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Gac.IDownloadProgressListener" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Gac\IDownloadProgressListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Gac.DownStatus" Collapsed="true">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAQAABAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Gac\DownloadProgressListener.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MinecraftOutClient.Modules.Forge.FMLHandshakeClientState" Collapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAEQAAAAAAAABAAABgAEgA=</HashCode>
+      <FileName>MinecraftOutClient\Forge\FMLHandshakeClientState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MinecraftOutClient.Modules.Forge.FMLHandshakeDiscriminator" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAAAAAAAAAAAAIAAAAAECAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>MinecraftOutClient\Forge\FMLHandshakeDiscriminator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

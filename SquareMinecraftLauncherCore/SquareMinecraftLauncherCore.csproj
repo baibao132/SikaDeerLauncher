@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F97010A9-5D34-4CA8-8696-4ED3F2FB0AB5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SquareMinecraftLauncher</RootNamespace>
+    <AssemblyName>SquareMinecraftLauncherCore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\Users\28175\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>zh</TargetCulture>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\AuroraLabFramework\TyUnturnedHackLoginInstaller\bin\x86\x86\Addons\Minecraft\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <NoWarn>1591,0168,1570</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\SquareMinecraftLauncherCore.xml</DocumentationFile>
+    <NoWarn>1591,0168,1570</NoWarn>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\DirtLauncher.xml</DocumentationFile>
+    <NoWarn>1591,0168</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\DirtLauncher.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>1591,0168</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\DirtLauncher.xml</DocumentationFile>
+    <NoWarn>1591,0168</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\DirtLauncher.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>1591,0168</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\ICSharpCode.SharpZipLib.dll.0.85.4.369\lib\net20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SquareMinecraftLauncher\Core\Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SquareMinecraftLauncher\Core\Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="json\json2.cs" />
+    <Compile Include="json\json3.cs" />
+    <Compile Include="json\mainclass.cs" />
+    <Compile Include="json\mclist.cs" />
+    <Compile Include="json\UP.cs" />
+    <Compile Include="json\UPerror.cs" />
+    <Compile Include="json\UPSkin.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Java\JavaVersion.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\MicrosoftLogin\MicrosoftLogin.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\MicrosoftLogin\MicrosoftToken.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\MinecraftLogin\MinecraftLogin.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\MinecraftLogin\MinecraftLoginErr.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\MinecraftLogin\MinecraftLoginResult.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\MinecraftLogin\MinecraftLoginToken.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\MinecraftLogin\PossessionGame.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\XboxLogin\Xbox.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\XboxLogin\XboxErr.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\OAuth\XboxLogin\XboxToken.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\DIYJson.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Windows\System.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\fabricmc\fabricUninstall.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\JsonIntegration\SetJson.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\YESAPI.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Forge\DATA.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\fabricmc\fabricmc.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\fabricmc\fabricmcInstall.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\fabricmc\fabricmcJson.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Forge\ForgeInstallCore.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Forge\ForgeJson\ForgeJsonEarly.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Forge\Install\ForgeJson.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Forge\ForgeJson\Forge1.13.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Forge\ForgeJson\ForgeY.cs" />
+    <Compile Include="json\mcweb.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\GacDownload.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Liteloader\liteloaderCore.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\JsonIntegration\NewJson.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Optifine\OptifineCore.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\ping.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\SquareMinecraftLauncherCore.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Windows\windowsAPI.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Windows\windowsMessage.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\DIY var.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\encryption\DES.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\encryption\MD5.cs" />
+    <Compile Include="SquareMinecraftLauncher\Minecraft\StartGame.cs" />
+    <Compile Include="SquareMinecraftLauncher\Minecraft\tools.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\Unzip.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\SquareMinecraftLauncherCore\web.cs" />
+    <Compile Include="SquareMinecraftLauncher\Gac\DownLoadFile.cs" />
+    <Compile Include="SquareMinecraftLauncher\Gac\DownloadProgressListener.cs" />
+    <Compile Include="SquareMinecraftLauncher\Gac\DownloadThread.cs" />
+    <Compile Include="SquareMinecraftLauncher\Gac\FileDownloader.cs" />
+    <Compile Include="SquareMinecraftLauncher\Gac\IDownloadProgressListener.cs" />
+    <Compile Include="SquareMinecraftLauncher\Core\Forge\ForgeCore.cs" />
+    <Compile Include="json\1.13Json.cs" />
+    <Compile Include="json\BlessingSkin.cs" />
+    <Compile Include="json\BlessingSkinError.cs" />
+    <Compile Include="json\versionjson.cs" />
+    <Compile Include="SquareMinecraftLauncher\Minecraft\Download.cs" />
+    <Compile Include="SquareMinecraftLauncher\SquareMinecraftLauncherException.cs" />
+    <Compile Include="mcbbs\mcbbs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SquareMinecraftLauncher\Core\Forms\start.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SquareMinecraftLauncher\Core\Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
